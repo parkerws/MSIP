@@ -1,0 +1,39 @@
+#header
+{
+	background-color: black;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#section1
+{
+	background-color: #495154;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+	text-align: center;
+	
+}
+
+#wrapper
+{
+	width: auto;
+}
+#first
+{
+	background-color: #495154;
+	border-style: white;
+	border-width: 10px;
+
+	float: left;
+}
+#second
+{
+	background-color: #495154;
+	border-style: white;
+	border-width: 10px;
+	float: left;
+}
