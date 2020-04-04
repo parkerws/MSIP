@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
-<<<<<<< HEAD
-=======
-using System.Threading.Tasks;
->>>>>>> Dingo
 
 namespace MSIP_App.Models
 {

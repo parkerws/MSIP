@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using MSIP_App;
+using MSIP_App.Models;
+
 
 namespace MSIP_App.Controllers
 {
