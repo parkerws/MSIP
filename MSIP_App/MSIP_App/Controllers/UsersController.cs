@@ -11,9 +11,21 @@ namespace MSIP_App.Controllers
 {
     public class UsersController : Controller
     {
+<<<<<<< HEAD
         private readonly MSIPContext _context;
 
         public UsersController(MSIPContext context)
+=======
+<<<<<<< HEAD
+        private readonly MSIP_AppContext _context;
+
+        public UsersController(MSIP_AppContext context)
+=======
+        private readonly MSIPContext _context;
+
+        public UsersController(MSIPContext context)
+>>>>>>> master
+>>>>>>> HarleyBranch
         {
             _context = context;
         }
@@ -21,7 +33,15 @@ namespace MSIP_App.Controllers
         // GET: Users
         public async Task<IActionResult> Index()
         {
+<<<<<<< HEAD
             return View(await _context.Users.ToListAsync());
+=======
+<<<<<<< HEAD
+            return View(await _context.User.ToListAsync());
+=======
+            return View(await _context.Users.ToListAsync());
+>>>>>>> master
+>>>>>>> HarleyBranch
         }
 
         // GET: Users/Details/5
@@ -32,7 +52,15 @@ namespace MSIP_App.Controllers
                 return NotFound();
             }
 
+<<<<<<< HEAD
             var user = await _context.Users
+=======
+<<<<<<< HEAD
+            var user = await _context.User
+=======
+            var user = await _context.Users
+>>>>>>> master
+>>>>>>> HarleyBranch
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {
@@ -72,7 +100,15 @@ namespace MSIP_App.Controllers
                 return NotFound();
             }
 
+<<<<<<< HEAD
             var user = await _context.Users.FindAsync(id);
+=======
+<<<<<<< HEAD
+            var user = await _context.User.FindAsync(id);
+=======
+            var user = await _context.Users.FindAsync(id);
+>>>>>>> master
+>>>>>>> HarleyBranch
             if (user == null)
             {
                 return NotFound();
@@ -123,7 +159,15 @@ namespace MSIP_App.Controllers
                 return NotFound();
             }
 
+<<<<<<< HEAD
             var user = await _context.Users
+=======
+<<<<<<< HEAD
+            var user = await _context.User
+=======
+            var user = await _context.Users
+>>>>>>> master
+>>>>>>> HarleyBranch
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {
@@ -138,15 +182,33 @@ namespace MSIP_App.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(long id)
         {
+<<<<<<< HEAD
             var user = await _context.Users.FindAsync(id);
             _context.Users.Remove(user);
+=======
+<<<<<<< HEAD
+            var user = await _context.User.FindAsync(id);
+            _context.User.Remove(user);
+=======
+            var user = await _context.Users.FindAsync(id);
+            _context.Users.Remove(user);
+>>>>>>> master
+>>>>>>> HarleyBranch
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool UserExists(long id)
         {
+<<<<<<< HEAD
             return _context.Users.Any(e => e.Id == id);
+=======
+<<<<<<< HEAD
+            return _context.User.Any(e => e.Id == id);
+=======
+            return _context.Users.Any(e => e.Id == id);
+>>>>>>> master
+>>>>>>> HarleyBranch
         }
     }
 }

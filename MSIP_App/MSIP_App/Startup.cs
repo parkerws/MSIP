@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -28,6 +28,9 @@ namespace MSIP_App
             services.AddControllersWithViews();
             services.AddDbContext<MSIPContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("UserDatabase")));
+
+            services.AddDbContext<MSIP_AppContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MSIP_AppContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
