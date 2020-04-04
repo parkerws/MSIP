@@ -1,5 +1,9 @@
 {
   "version": 1,
+<<<<<<< HEAD
   "dgSpecHash": "kzw7UhU0pAJ0KluPJafjo9jxVUygFOloyzuEtIPbEGICe3bhKDqN+SxJc6CQ7LSrjRowa+8LItLp2XmqcrMusg==",
+=======
+  "dgSpecHash": "CvZR7NPoOdDmkBLDgRv+lPtbc0XYFfEs6i1rcy5ACgMUkCh9dF1e9dVM08aK5tIHYiHkwMGIG+IirTi+QfQ6Mw==",
+>>>>>>> Dingo
   "success": true
 }

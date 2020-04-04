@@ -1,5 +1,8 @@
 ﻿using System;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Dingo
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
@@ -26,6 +29,7 @@ namespace MSIP_App.Models
         }
     }
 }
+<<<<<<< HEAD
 =======
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -59,3 +63,5 @@ namespace MSIP_App
     }
 }
 >>>>>>> WillBranch
+=======
+>>>>>>> Dingo

@@ -26,11 +26,15 @@ namespace MSIP_App
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+<<<<<<< HEAD
             services.AddDbContext<MSIPContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("UserDatabase")));
 
             services.AddDbContext<MSIP_AppContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("MSIP_AppContext")));
+=======
+            services.AddDbContext<MSIPContext>(options => options.UseSqlServer(Configuration.GetConnectionString("UserDatabase"))) ;
+>>>>>>> Dingo
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

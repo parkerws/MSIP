@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\job_2\\source\\homwok\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {}
   },
   "projects": {
@@ -26,16 +27,33 @@
         "packagesPath": "C:\\Users\\Cryptlogic\\.nuget\\packages\\",
         "outputPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
 >>>>>>> WillBranch
+=======
+    "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+        "projectName": "MSIP_App",
+        "projectPath": "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+        "packagesPath": "C:\\Users\\Diego Marquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+>>>>>>> Dingo
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
           "C:\\Users\\job_2\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
           "C:\\Users\\Cryptlogic\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> WillBranch
+=======
+          "C:\\Users\\Diego Marquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Dingo
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,6 +77,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+<<<<<<< HEAD
+=======
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+>>>>>>> Dingo
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.3, )"
@@ -96,7 +121,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+>>>>>>> Dingo
         }
       }
     }
