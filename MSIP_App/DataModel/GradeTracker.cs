@@ -9,6 +9,6 @@ namespace DataModel
         public long Id { get; set; }
         public User GradeTrackerUser { get; set; }
         public Classes UserClass { get; set; }
-        public Assignment UserAssignment { get; set; }
+        public Assignments UserAssignment { get; set; }
     }
 }

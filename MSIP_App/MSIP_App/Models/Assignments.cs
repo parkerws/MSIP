@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace DataModel
+namespace MSIP_App.Models
 {
-    class Assignments
+    public class Assignments
     {
+        [Key]
         public long Id { get; set; }
         public string AssignmentName { get; set; }
         public string Comments { get; set; }

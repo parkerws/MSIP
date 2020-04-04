@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace DataModel
+namespace MSIP_App.Models
 {
-    class Forum
+    public class Forum
     {
+        [Key]
         public long MessageId { get; set; }
         public string TopicName { get; set; }
         public int Importance { get; set; }
