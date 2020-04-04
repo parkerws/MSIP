@@ -1,0 +1,54 @@
+﻿@model IEnumerable<MSIP_App.Tasks>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Tasks</h1>
+
+<p>
+    <a type="button" class="btn btn-primary" asp-action="Create">New Task</a>
+</p>
+<div class="card">
+<table class="table table-bordered card-body">
+    <thead class="thead-dark">
+    <tr class="card-body">
+        <th class="card-columns">
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DueDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsComplete)
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DueDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsComplete)
+            </td>
+            <td class="btn-group" role="group">
+                <a type="button" class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Id">Edit</a> 
+                <a type="button" class="btn btn-secondary" asp-action="Details" asp-route-id="@item.Id">Details</a> 
+                <a type="button" class="btn btn-secondary" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+</div>

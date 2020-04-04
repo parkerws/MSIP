@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {}
+    "C:\\Users\\parke\\OneDrive\\Desktop\\MSSA\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
+    "C:\\Users\\parke\\OneDrive\\Desktop\\MSSA\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+        "projectUniqueName": "C:\\Users\\parke\\OneDrive\\Desktop\\MSSA\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
         "projectName": "DataModel",
-        "projectPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+        "projectPath": "C:\\Users\\parke\\OneDrive\\Desktop\\MSSA\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
         "packagesPath": "C:\\Users\\parke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\DataModel\\obj\\",
+        "outputPath": "C:\\Users\\parke\\OneDrive\\Desktop\\MSSA\\MSIP\\MSIP_App\\DataModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parke\\AppData\\Roaming\\NuGet\\NuGet.Config",

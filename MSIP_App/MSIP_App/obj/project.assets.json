@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+      "projectUniqueName": "C:\\Users\\parke\\OneDrive\\Desktop\\MSSA\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
       "projectName": "MSIP_App",
-      "projectPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+      "projectPath": "C:\\Users\\parke\\OneDrive\\Desktop\\MSSA\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
       "packagesPath": "C:\\Users\\parke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+      "outputPath": "C:\\Users\\parke\\OneDrive\\Desktop\\MSSA\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\parke\\AppData\\Roaming\\NuGet\\NuGet.Config",
