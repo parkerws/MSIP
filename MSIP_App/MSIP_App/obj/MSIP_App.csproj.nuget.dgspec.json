@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {}
+    "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {
+    "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+        "projectUniqueName": "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
         "projectName": "MSIP_App",
-        "projectPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
-        "packagesPath": "C:\\Users\\parke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+        "projectPath": "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+        "packagesPath": "C:\\Users\\Diego Marquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\parke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Diego Marquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,30 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
