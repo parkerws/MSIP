@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\job_2\\source\\homwok\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {}
   },
   "projects": {
@@ -12,9 +13,29 @@
         "projectPath": "C:\\Users\\job_2\\source\\homwok\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
         "packagesPath": "C:\\Users\\job_2\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\job_2\\source\\homwok\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+=======
+    "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {}
+  },
+  "projects": {
+    "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+        "projectName": "MSIP_App",
+        "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+        "packagesPath": "C:\\Users\\Cryptlogic\\.nuget\\packages\\",
+        "outputPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+>>>>>>> WillBranch
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\job_2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Cryptlogic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> WillBranch
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
