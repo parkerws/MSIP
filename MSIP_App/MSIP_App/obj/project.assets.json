@@ -8535,23 +8535,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cryptlogic\\.nuget\\packages\\": {},
+    "C:\\Users\\job_2\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+      "projectUniqueName": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
       "projectName": "MSIP_App",
-      "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
-      "packagesPath": "C:\\Users\\Cryptlogic\\.nuget\\packages\\",
-      "outputPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+      "projectPath": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+      "packagesPath": "C:\\Users\\job_2\\.nuget\\packages\\",
+      "outputPath": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cryptlogic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\job_2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8564,8 +8564,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
-              "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
+            "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
+              "projectPath": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
             }
           }
         }
@@ -8620,8 +8620,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\MSIP_App\\obj\\MSIP_App.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

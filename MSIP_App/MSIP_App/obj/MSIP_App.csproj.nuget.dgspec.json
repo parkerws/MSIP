@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {}
+    "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {}
   },
   "projects": {
-    "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
+    "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+        "projectUniqueName": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
         "projectName": "DataModel",
-        "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
-        "packagesPath": "C:\\Users\\Cryptlogic\\.nuget\\packages\\",
-        "outputPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\obj\\",
+        "projectPath": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+        "packagesPath": "C:\\Users\\job_2\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cryptlogic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\job_2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,24 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {
+    "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+        "projectUniqueName": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
         "projectName": "MSIP_App",
-        "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
-        "packagesPath": "C:\\Users\\Cryptlogic\\.nuget\\packages\\",
-        "outputPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+        "projectPath": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+        "packagesPath": "C:\\Users\\job_2\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cryptlogic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\job_2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,8 +105,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
-                "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
+              "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
+                "projectPath": "D:\\OneDriveOverflow\\HomeworkJank\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
               }
             }
           }
@@ -161,7 +161,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
