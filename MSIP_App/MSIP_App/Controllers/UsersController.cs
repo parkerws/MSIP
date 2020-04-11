@@ -21,7 +21,9 @@ namespace MSIP_App.Controllers
         // GET: Users
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Users.ToListAsync());
+            List<User> Users = _context.Users.ToList();
+            ViewBag.users = Users;
+            return View();
         }
 
         // GET: Users/Details/5
