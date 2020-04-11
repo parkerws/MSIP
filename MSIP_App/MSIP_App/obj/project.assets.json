@@ -8535,35 +8535,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nateg\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\parke\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nateg\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+      "projectUniqueName": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
       "projectName": "MSIP_App",
-      "projectPath": "C:\\Users\\nateg\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
-      "packagesPath": "C:\\Users\\nateg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nateg\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+      "projectPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+      "packagesPath": "C:\\Users\\parke\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\nateg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\parke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\nateg\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
-              "projectPath": "C:\\Users\\nateg\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
+            "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
+              "projectPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
             }
           }
         }
