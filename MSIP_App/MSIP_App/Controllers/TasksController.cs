@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -6,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MSIP_App.Models;
+
 
 
 namespace MSIP_App.Controllers
@@ -22,26 +24,15 @@ namespace MSIP_App.Controllers
         // GET: Tasks
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Tasks.ToListAsync());
+            
+            List<Tasks> Tasks = _context.Tasks.ToList();
+            ViewBag.tasks = Tasks;
+            //return View(await _context.Tasks.ToListAsync());
+            return View();
+
         }
 
-        // GET: Tasks/Details/5
-        public async Task<IActionResult> Details(long? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var tasks = await _context.Tasks
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (tasks == null)
-            {
-                return NotFound();
-            }
-
-            return View(tasks);
-        }
+       
 
         // GET: Tasks/Create
         public IActionResult Create()
@@ -149,5 +140,11 @@ namespace MSIP_App.Controllers
         {
             return _context.Tasks.Any(e => e.Id == id);
         }
+
+        //public List<Tasks> GetTasks()
+        //{
+        //    var tasklist = _context.Tasks.ToList();
+        //    return tasklist;
+        //}
     }
 }
