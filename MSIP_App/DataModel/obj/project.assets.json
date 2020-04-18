@@ -69,7 +69,7 @@
       "Microsoft.CodeAnalysis.Analyzers/2.9.4": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Microsoft.CodeAnalysis.Analyzers.props": {}
         }
       },
       "Microsoft.CodeAnalysis.Common/3.3.1": {
@@ -8506,6 +8506,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.CodeAnalysis.Analyzers >= 2.9.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.3",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.3",
@@ -8513,19 +8514,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\parke\\.nuget\\packages\\": {}
+    "C:\\Users\\job_2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+      "projectUniqueName": "E:\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
       "projectName": "DataModel",
-      "projectPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
-      "packagesPath": "C:\\Users\\parke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\parke\\source\\repos\\MSIP\\MSIP_App\\DataModel\\obj\\",
+      "projectPath": "E:\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+      "packagesPath": "C:\\Users\\job_2\\.nuget\\packages\\",
+      "outputPath": "E:\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\parke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\job_2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8549,6 +8550,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.CodeAnalysis.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.9.4, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.3, )"
