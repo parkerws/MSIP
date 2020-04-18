@@ -273,3 +273,6 @@ __pycache__/
 # tools/
 
 # End of https://www.gitignore.io/api/aspnetcore
+*.cache
+MSIP_App/MSIP_App/obj/MSIP_App.csproj.nuget.dgspec.json
+MSIP_App/MSIP_App/obj/MSIP_App.csproj.nuget.g.props
