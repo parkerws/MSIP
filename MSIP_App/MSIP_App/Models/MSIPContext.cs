@@ -14,7 +14,6 @@ namespace MSIP_App.Models
         public DbSet<Forum> Forums { get; set; }
         public DbSet<Events> Events { get; set; }
         public DbSet<Classes> Courses { get; set; }
-        public DbSet<Calendar> Calendars { get; set; }
         public DbSet<Assignments> Assignments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
