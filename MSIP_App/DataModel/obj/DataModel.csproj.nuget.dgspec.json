@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {}
+    "C:\\Users\\nateg\\OneDrive\\Documents\\GitHub\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {}
   },
   "projects": {
-    "E:\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
+    "C:\\Users\\nateg\\OneDrive\\Documents\\GitHub\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+        "projectUniqueName": "C:\\Users\\nateg\\OneDrive\\Documents\\GitHub\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
         "projectName": "DataModel",
-        "projectPath": "E:\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
-        "packagesPath": "C:\\Users\\job_2\\.nuget\\packages\\",
-        "outputPath": "E:\\MSSACohort5\\MSIP\\MSIP_App\\DataModel\\obj\\",
+        "projectPath": "C:\\Users\\nateg\\OneDrive\\Documents\\GitHub\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+        "packagesPath": "C:\\Users\\nateg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nateg\\OneDrive\\Documents\\GitHub\\MSIP\\MSIP_App\\DataModel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\job_2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nateg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
