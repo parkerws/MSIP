@@ -1,75 +1,43 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MSIP</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="shortcut icon" href="~/Pictures/MSIPTABLogo.png" type="image/x-icon" />
+    @Html.Partial("_Header")
+    @RenderSection("metatags", false)
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/Pictures/MSIPLogo.png" height="60" width="160"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" role="button">Courses</a>
-                            <ul class="dropdown-menu" role="menu" id="myTab">
-                                <li role="presentation">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">ISTA 421 Developing Cloud Applications</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li role="presentation">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">ISTA 422 Deploying Apps in Azure</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Grades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Forum</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Calendar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">User Profile</a>
 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Tasks" asp-action="Index">Tasks</a>
+    <!-- Top Menu Start -->
+    @Html.Partial("_TopMenu")
+    <!-- End of Top Menu-->
+    <!-- Banner Start -->
+    @Html.Partial("_Banner")
+    <!-- End of Banner -->
 
-                        </li>
-                    </ul>
-                </div>
+
+    <div id="templatemo_content_wrapper">
+        <div id="templatemo_content">
+
+            <!-- Content Area -->
+            <div id="column_w530">
+                <div class="header_02">Welcome to MSIP!</div>
+                @RenderBody()
+
+                <p class="em_text">
+                    <a>This is Home Page of the brand new Microsoft Student Information portal designed by CL5's very own, Group One!</a>
+                </p>
+                <div class="cleaner"></div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+            <!-- End of Content Area -->
+            <!-- Right Sidebar -->
+            @Html.Partial("_Sidebar")
+            <!-- End of Right Sidebar -->
+
+            <div class="cleaner"></div>
+        </div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - MSIP - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
+    <!-- Footer -->
+    @Html.Partial("_Footer")
+    <!-- End of Footer -->
 </body>
 </html>

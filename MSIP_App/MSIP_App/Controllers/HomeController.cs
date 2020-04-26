@@ -28,6 +28,21 @@ namespace MSIP_App.Controllers
             return View();
         }
 
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public ActionResult Tasks()
+        {
+            return View();
+        }
+
+        public ActionResult Users()
+        {
+            return View();
+        }
+
         public IActionResult Bootstrap()
         {
             return View();
