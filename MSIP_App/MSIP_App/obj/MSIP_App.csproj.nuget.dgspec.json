@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {}
+    "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {}
   },
   "projects": {
-    "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
+    "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+        "projectUniqueName": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
         "projectName": "DataModel",
-        "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
-        "packagesPath": "C:\\Users\\Cryptlogic\\.nuget\\packages\\",
-        "outputPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\obj\\",
+        "projectPath": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+        "packagesPath": "C:\\Users\\Diego Marquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Cryptlogic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Diego Marquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +38,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.4, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.3, )"
@@ -79,20 +82,17 @@
         }
       }
     },
-    "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {
+    "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+        "projectUniqueName": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
         "projectName": "MSIP_App",
-        "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
-        "packagesPath": "C:\\Users\\Cryptlogic\\.nuget\\packages\\",
-        "outputPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+        "projectPath": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+        "packagesPath": "C:\\Users\\Diego Marquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Cryptlogic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Diego Marquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,8 +105,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
-                "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
+              "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
               }
             }
           }
@@ -120,6 +120,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.3, )"
