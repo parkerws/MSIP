@@ -9,12 +9,20 @@ namespace MSIP_App.Models
     public class MSIPContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+
         public DbSet<Tasks> Tasks { get; set; }
+
         public DbSet<GradeTracker> GradeTrackers { get; set; }
+
         public DbSet<Forum> Forums { get; set; }
+
         public DbSet<Events> Events { get; set; }
+
         public DbSet<Classes> Courses { get; set; }
+
         public DbSet<Assignments> Assignments { get; set; }
+
+        public DbSet<Urls> Urls { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -25,5 +33,10 @@ namespace MSIP_App.Models
         public MSIPContext(DbContextOptions<MSIPContext> options)
             : base(options)
         { }
+
+        protected override void OnModelCreating( ModelBuilder modelBuilder)
+        {
+            modelBuilder.SeedData();
+        }
     }
 }

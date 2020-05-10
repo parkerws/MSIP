@@ -4,14 +4,16 @@ using MSIP_App.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MSIP_App.Migrations
 {
     [DbContext(typeof(MSIPContext))]
-    partial class MSIPContextModelSnapshot : ModelSnapshot
+    [Migration("20200510181627_UrlsAdded")]
+    partial class UrlsAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -197,38 +199,6 @@ namespace MSIP_App.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Urls");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Embry-Riddle",
-                            Url = "https://fed.erau.edu/oamfed/idp/wsfed11?wa=wsignin1.0&wtrealm=urn%3amyernie%3asharepoint&wctx=https%3a%2f%2fernie.erau.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Microsoft Military Education Portal",
-                            Url = "https://miledu.microsoft.com/login?next=/mssainfo"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Skillpipe",
-                            Url = "https://www.skillpipe.com/#/account/login"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Name = "Microsoft Azure Portal",
-                            Url = "https://portal.azure.com/"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Name = "Learn On Demand",
-                            Url = "https://mssa-erau.learnondemand.net/User/Login?ReturnUrl=%2fUser%2fCurrentTraining%2f1395478"
-                        });
                 });
 
             modelBuilder.Entity("MSIP_App.Models.User", b =>
