@@ -26,6 +26,7 @@ namespace MSIP_App
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddRazorPages();
             services.AddDbContext<MSIPContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("UserDatabase")));
         }
@@ -48,13 +49,16 @@ namespace MSIP_App
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                //Used to force the application to start at the Login page.
+                endpoints.MapDefaultControllerRoute().RequireAuthorization();
+
+                //Without this the razor pages will not populate.
+                endpoints.MapRazorPages();
             });
         }
     }

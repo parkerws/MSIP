@@ -1,43 +1,39 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    @Html.Partial("_Header")
-    @RenderSection("metatags", false)
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MSSA Student Information Portal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" rel="preload" />
 </head>
 <body>
-
-    <!-- Top Menu Start -->
-    @Html.Partial("_TopMenu")
-    <!-- End of Top Menu-->
-    <!-- Banner Start -->
-    @Html.Partial("_Banner")
-    <!-- End of Banner -->
-
-
-    <div id="templatemo_content_wrapper">
-        <div id="templatemo_content">
-
-            <!-- Content Area -->
-            <div id="column_w530">
-                <div class="header_02">Welcome to MSIP!</div>
-                @RenderBody()
-
-                <p class="em_text">
-                    <a>This is Home Page of the brand new Microsoft Student Information portal designed by CL5's very own, Group One!</a>
-                </p>
-                <div class="cleaner"></div>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
+            <div class="container" style="width: 100%; height: 72px">
+                <a><img src="~/Content/images/MSIP_logo_White.png" /></a>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_LoginPartial" />
+                </div>
             </div>
-            <!-- End of Content Area -->
-            <!-- Right Sidebar -->
-            @Html.Partial("_Sidebar")
-            <!-- End of Right Sidebar -->
-
-            <div class="cleaner"></div>
-        </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
     </div>
 
-    <!-- Footer -->
-    @Html.Partial("_Footer")
-    <!-- End of Footer -->
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - MSIP - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

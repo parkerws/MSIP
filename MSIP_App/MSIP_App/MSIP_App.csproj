@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\Pictures\**" />
+    <Content Remove="wwwroot\Pictures\**" />
+    <EmbeddedResource Remove="wwwroot\Pictures\**" />
+    <None Remove="wwwroot\Pictures\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.2" />
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="2.9.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -21,11 +30,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataModel\DataModel.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\NewFolder\" />
-    <Folder Include="wwwroot\Pictures\" />
   </ItemGroup>
 
   <ItemGroup>

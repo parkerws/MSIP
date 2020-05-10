@@ -8514,19 +8514,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Diego Marquez\\.nuget\\packages\\": {}
+    "C:\\Users\\Cryptlogic\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+      "projectUniqueName": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
       "projectName": "DataModel",
-      "projectPath": "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
-      "packagesPath": "C:\\Users\\Diego Marquez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diego Marquez\\source\\repos\\MSIP\\MSIP_App\\DataModel\\obj\\",
+      "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj",
+      "packagesPath": "C:\\Users\\Cryptlogic\\.nuget\\packages\\",
+      "outputPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Diego Marquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cryptlogic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
