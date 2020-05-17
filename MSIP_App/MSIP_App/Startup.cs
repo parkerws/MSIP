@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MSIP_App.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using MSIP_App.Services;
 
 namespace MSIP_App
 {
@@ -27,6 +29,8 @@ namespace MSIP_App
         {
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddTransient<IEmailSender, EmailSender>();
+            services.Configure<AuthMessageSenderOptions>(Configuration);
             services.AddDbContext<MSIPContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("UserDatabase")));
         }

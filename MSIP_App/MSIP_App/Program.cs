@@ -8,6 +8,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MSIP_App.Models;
+using SendGrid;
+using SendGrid.Helpers.Mail;
 
 namespace MSIP_App
 {
@@ -15,7 +17,7 @@ namespace MSIP_App
     {
         public static void Main(string[] args)
         {
-          CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
