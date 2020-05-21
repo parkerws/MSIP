@@ -9284,23 +9284,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cryptlogic\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Diego Marquez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cryptlogic\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+      "projectUniqueName": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
       "projectName": "MSIP_App",
-      "projectPath": "C:\\Users\\Cryptlogic\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
-      "packagesPath": "C:\\Users\\Cryptlogic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cryptlogic\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+      "projectPath": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+      "packagesPath": "C:\\Users\\Diego Marquez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Cryptlogic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Diego Marquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9313,8 +9309,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Cryptlogic\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
-              "projectPath": "C:\\Users\\Cryptlogic\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
+            "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
+              "projectPath": "C:\\Users\\Diego Marquez\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
             }
           }
         }
