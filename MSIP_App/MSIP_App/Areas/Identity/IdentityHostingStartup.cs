@@ -20,7 +20,7 @@ namespace MSIP_App.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("MSIPDbContextConnection")));
 
-                services.AddDefaultIdentity<MSIPUser>(options => options.SignIn.RequireConfirmedAccount = false)
+                services.AddDefaultIdentity<MSIPUser>(options => options.SignIn.RequireConfirmedAccount = true)
                     .AddEntityFrameworkStores<MSIPDbContext>();
             });
         }

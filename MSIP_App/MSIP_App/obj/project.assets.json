@@ -9290,11 +9290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+      "projectUniqueName": "C:\\Users\\Cryptlogic\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
       "projectName": "MSIP_App",
-      "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
+      "projectPath": "C:\\Users\\Cryptlogic\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\MSIP_App.csproj",
       "packagesPath": "C:\\Users\\Cryptlogic\\.nuget\\packages\\",
-      "outputPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
+      "outputPath": "C:\\Users\\Cryptlogic\\Source\\Repos\\MSIP\\MSIP_App\\MSIP_App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9313,8 +9313,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
-              "projectPath": "D:\\MSSA\\VS Projects\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
+            "C:\\Users\\Cryptlogic\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj": {
+              "projectPath": "C:\\Users\\Cryptlogic\\Source\\Repos\\MSIP\\MSIP_App\\DataModel\\DataModel.csproj"
             }
           }
         }
